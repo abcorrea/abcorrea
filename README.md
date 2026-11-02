@@ -1,24 +1,26 @@
 ## Hi, I'm Augusto!
 
-**Junior Research Fellow** at [Christ Church](https://www.chch.ox.ac.uk/), University of Oxford.
+I'm a Junior Research Fellow at [Christ Church](https://www.chch.ox.ac.uk/),
+University of Oxford. My research focuses on safe and trustworthy AI: how to
+ensure that AI systems that plan and act in the world do so reliably and
+correctly. I work on automated planning, the formal foundations of AI, and the
+intersection of classical planning and large language models. My PhD thesis
+received the [ICAPS Outstanding Dissertation
+Award](https://www.icaps-conference.org/icaps-awards/) (2025).
 
-I work on **AI planning** — given where we are and where we want to be, what actions should we take? My research focuses on building planning systems that are both effective and formally grounded, so we can actually trust their answers. Lately, I've been especially interested in what happens when you combine classical planning algorithms with large language models.
+### Some cool projects
 
-I did my PhD at the University of Basel with [Malte Helmert](https://ai.dmi.unibas.ch/people/helmert/), winning the [ICAPS Outstanding Dissertation Award](https://www.icaps-conference.org/icaps-awards/) (2025).
-
-### What I build
-
-- **[Powerlifted](https://github.com/abcorrea/powerlifted)** — A lifted classical planning system that works directly over PDDL without grounding. (Part of the Levitron winning planner of the IPC 2023 Classical Satisficing Track!)
-- **[LLM-Generated Heuristics for Planning](https://github.com/abcorrea/llm-generated-heuristics)** — A Python framework to generate heuristics for planning domains. We also have a [leaderboard](https://abcorrea.github.io/leaderboard/) with results for more recent models.
-- **[htg-domains](https://github.com/abcorrea/htg-domains)** — A curated collection of hard-to-ground planning benchmarks.
-- **[grounder](https://github.com/abcorrea/grounder)** — A C++ implementation of the classical planning grounder from Fast Downward for computing relaxed-reachable actions and atoms.
+- **[LeanPlan](https://github.com/andregrahl/leanplan)**: an optimal planner in Lean 4 made for agentic development. An LLM agent writes the heuristics and their admissibility proofs, and the Lean kernel checks them.
+- **[LLM-Generated Heuristics](https://github.com/abcorrea/llm-generated-heuristics)**: LLMs write  heuristics for planning domains (NeurIPS 2025). A [leaderboard](https://abcorrea.github.io/leaderboard/) tracks newer models.
+- **[pddl-skills](https://github.com/abcorrea/pddl-skills)**: agent skills for PDDL planning that hand the symbolic steps to Python scripts.
+- **[Powerlifted](https://github.com/abcorrea/powerlifted)**: a lifted classical planner that works directly over PDDL, without grounding. Part of Levitron, winner of the IPC 2023 Classical Satisficing Track.
 
 ### Recent highlights
 
-- 📄 Paper at **NeurIPS 2025** on using LLMs to generate heuristic functions for classical planning
-- 📄 Paper at **ICAPS 2026** connecting potential heuristics with multilinear polynomials and Fourier analysis
-- 🏆 **ICAPS Outstanding Dissertation Award** (2025) for my thesis *Planning with Different Representations*
-- 🎓 Co-organiser of the **LM4Plan Workshop** (Language Models for Planning) at ICAPS 2025, 2026 & ICML 2026
+- 📈 [**Frontier Large Language Models Rival State-of-the-Art Planners**](https://arxiv.org/abs/2511.09378) was accepted at **Communications of the ACM** and featured in the [**Stanford HAI 2026 AI Index Report**](https://hai.stanford.edu/ai-index/2026-ai-index-report).
+- 🔁 **Two papers on agentic loops for automated discovery** for planning accepted at **NeurIPS 2026**: [**Property-Guided LLM Program Synthesis for Planning**](https://arxiv.org/abs/2605.16142), and [**Hierarchical Task Network Planning with LLM-Generated Heuristics**](https://arxiv.org/abs/2605.07707).
+
+More papers and news are on [my website](https://abcorrea.github.io/). I write about autoresearch and agentic-loop experiments on [my blog](https://abcorrea.github.io/blog/).
 
 ### Get in touch
 
